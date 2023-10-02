@@ -47,7 +47,7 @@ window.addEventListener("load", () => {
 
 let mouseCursor = document.querySelector(".cursor");
 let navLinks = document.querySelectorAll(".nav-links li");
-let projectLinks = document.querySelectorAll(".project-list li");
+let projectLinks = document.querySelectorAll(".project-links li");
 let logo = document.querySelector(".logo");
 
 window.addEventListener("mousemove", cursor);

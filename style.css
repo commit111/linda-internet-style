@@ -61,10 +61,10 @@ nav{
   font-size: 18px;
   cursor: none; /*for fancy cursor*/
 }
-.project-list ul{
+.project-links {
   list-style-type: "✦ ";
 }
-.project-list a{
+.project-links a{
   color: black;
   cursor: none; /*for fancy cursor*/
 }
