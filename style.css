@@ -6,7 +6,7 @@ body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background: linear-gradient(45deg,#FFF2A1,#FFF08E);
+  background: #FFF4B2;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -58,7 +58,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #FFFCEA; /*rgba(255, 255, 255, 0.8)*/
+  background-color: rgba(255, 255, 255, 0.8); /*rgba(255, 255, 255, 0.8) #FFFCEA*/
   z-index: 1;
   
   position: -webkit-sticky;
@@ -142,13 +142,15 @@ nav{
 @media screen and (max-width:768px){
   body{
     overflow-x: hidden;
+    width:100%;
+    position: relative;
   }
   .nav-links{
     position: absolute;
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #FFFCEA; 
+    background-color: rgba(255, 255, 255, 0.8); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +192,6 @@ nav{
 }
 
 .container{
-  background: #FFF4B2;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -245,7 +246,7 @@ nav{
   background-color: rgba(0,0,0,0.5);
 }
 .spotlight{
-  background-color: pink;
+  background-color: #FFF4B2;
   min-height: 90vh;
   min-width: 100vw;
   display: flex;
