@@ -2,7 +2,7 @@ body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background: linear-gradient(45deg,#FFED94,#FFF08E);
+  background: linear-gradient(45deg,#FFF2A1,#FFF08E);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ nav{
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* #F988BA #FF8FBB #4EFFBB */
+/* #F988BA #FF8FBB #4EFFBB #FFF08E*/
 .logo{
   color: #042BC6;
   letter-spacing: 6px;
@@ -67,7 +67,7 @@ nav{
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #FFF08E; 
+    background-color: #FFF4B2; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +109,7 @@ nav{
 }
 
 .container{
-  background: rgba(0,0,0,);
+  background: #FFF4B2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,7 +127,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFF08E;
+  background-color: #FFF4B2;
   transition: opacity 0.75s, visibility 0.75s;
 }
 .loader-hidden{
@@ -151,4 +151,15 @@ nav{
   to{
     transform: rotate(1turn);
   }
+}
+
+footer{
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0vh -10vh;
+  background-color: rgba(0,0,0);
+  font-size: 24px;
+}
+footer p{
+    color: #FFF4B2;
 }
