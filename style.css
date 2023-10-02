@@ -24,7 +24,7 @@ body{
   transition: all 0.3s ease;
   transition-property: background, transform;
   transform-origin: 100% 100%;
-  backdrop-filter: grayscale(30%); /*invert(100%); blur(3px); */
+  backdrop-filter: invert(100%); /* invert(100%); blur(3px); */
 }
 .link-grow{
   transform: scale(2);
@@ -93,6 +93,7 @@ nav{
 @media screen and (max-width:768px){
   body{
     overflow-x: hidden;
+    cursor: auto;
   }
   .nav-links{
     position: absolute;
