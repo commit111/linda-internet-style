@@ -25,6 +25,7 @@ body{
   transition-property: background, transform;
   transform-origin: 100% 100%;
   backdrop-filter: invert(100%); /* invert(100%); blur(3px); */
+  z-index: 10;
 }
 .link-grow{
   transform: scale(2);
