@@ -33,6 +33,8 @@ footer a{
   cursor: none;
 }
 
+/* Extra colors: #F988BA #FF8FBB #4EFFBB #FFF08E*/
+
 .cursor{
   width: 2rem;
   height: 2rem;
@@ -59,20 +61,31 @@ nav{
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* #F988BA #FF8FBB #4EFFBB #FFF08E*/
 .logo{
   color: #042BC6;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.3rem;
   font-size: 1.75rem;
+  
+  /*these properties are for logo img
+  
   display:flex;
   justify-items: left;
   align-items: center;
+  
+  */
 }
+.logo h3{
+  font-weight: normal;
+}
+
+
+/*this property is for logo img with its id="logopic" 
 
 #logopic {
   width: 2rem;
-  
+  height: 2rem;
 }
+*/
 
 .nav-links{
   display: flex;
@@ -216,3 +229,4 @@ nav{
     transform: rotate(1turn);
   }
 }
+
