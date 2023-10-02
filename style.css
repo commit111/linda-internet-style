@@ -9,6 +9,7 @@ body{
   font-family: 'Shrikhand', sans-serif;
   font-size: 1.5rem;
   color: #042BC6;
+  overflow-x: hidden;
 }
 
 nav{
@@ -115,6 +116,7 @@ nav{
   align-items: center;
   flex-direction: column;
   padding: 1rem 0rem 2rem 0rem;
+  height: 80vh;
 }
 
 
@@ -155,7 +157,7 @@ nav{
 
 footer{
   text-align: center;
-  padding: 40px 20px;
+  padding: 100px 20px;
   margin: 0vh -10vh;
   background-color: rgba(0,0,0);
   font-size: 24px;
