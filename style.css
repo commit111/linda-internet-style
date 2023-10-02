@@ -61,7 +61,7 @@ nav {
     255,
     255,
     255,
-    0.8
+    0.9
   ); /*rgba(255, 255, 255, 0.8) #FFFCEA*/
   z-index: 1;
 
@@ -85,9 +85,6 @@ nav {
 }
 .logo h3 {
   font-weight: bold;
-}
-.logo h3:hover{
-  text-shadow: 2px 2px 7px rgba(4, 43, 198, 0.65);
 }
 
 /*this property is for logo img with its id="logopic" 
@@ -113,19 +110,22 @@ nav {
   font-size: 1.5rem;
   cursor: none; /*for fancy cursor*/
 }
+.nav-links a:hover {
+  text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
+}
+
+/*
 .project-links {
   list-style-type: "✦ ";
 }
 .project-links a {
-  color: #042bc6; /*black*/
-  cursor: none; /*for fancy cursor*/
-}
-.nav-links a:hover {
-  text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
+  color: #042bc6; /* black
+  cursor: none; /* for fancy cursor
 }
 .project-links a:hover {
   text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
 }
+*/
 
 .burger {
   display: none;
@@ -241,16 +241,26 @@ nav {
   }
 }
 
-.flex-container {
+.project-boxes {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.flex-container div {
-  padding: 3rem;
+.project-boxes div {
+  padding: 3rem 6rem;
+  margin: 3rem;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.project-boxes a{
+  color: #042bc6;
+  cursor: none; 
+  text-decoration: none;
+}
+.project-boxes a:hover {
+  text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
+}
+
 .spotlight {
   background-color: #fff4b2;
   min-height: 90vh;
