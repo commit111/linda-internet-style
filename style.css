@@ -5,8 +5,27 @@ body{
   width: 100vh;
   background: linear-gradient(45deg,#FFED94,#FFF08E);
   font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  color: #042BC6;
 }
 
 nav {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* #F988BA #FF8FBB #4EFFBB */
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li a{
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #94FFC3;
+}
+nav li a:link{
+  text-decoration:none;
+}
+li a:visited{
+  color: #042BC6;
 }
