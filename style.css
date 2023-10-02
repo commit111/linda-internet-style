@@ -65,14 +65,14 @@ nav{
   list-style-type: "✦ ";
 }
 .project-links a{
-  color: black;
+  color: #042BC6; /*black*/
   cursor: none; /*for fancy cursor*/
 }
 .nav-links a:hover{
   text-shadow: 2px 2px 9px rgba(4, 43, 198,0.75);
 }
-.project-list a:hover{
-  color: #042BC6;
+.project-links a:hover{
+  text-shadow: 2px 2px 9px rgba(4, 43, 198,0.75);
 }
 
 .burger{
@@ -202,6 +202,7 @@ footer p{
 footer a{
   text-decoration: none;
   color: #FFF4B2;
+  cursor: none;
 }
 html{
   scroll-behavior: smooth;
