@@ -110,9 +110,32 @@ nav {
   font-size: 1.5rem;
   cursor: none; /*for fancy cursor*/
 }
+
+
+.project-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.project-boxes div {
+  /*top/bottom left/right */
+  padding: 4rem 4rem;
+  margin: 2rem;
+  background-color: rgba(255,255,255,0.4);
+}
+.project-boxes a{
+  color: #042bc6;
+  cursor: none; 
+  text-decoration: none;
+}
 .nav-links a:hover {
   text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
 }
+.project-boxes a:hover {
+  text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
+}
+
 
 /*
 .project-links {
@@ -239,26 +262,6 @@ nav {
   to {
     transform: rotate(1turn);
   }
-}
-
-.project-boxes {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.project-boxes div {
-  padding: 3rem 6rem;
-  margin: 3rem;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.project-boxes a{
-  color: #042bc6;
-  cursor: none; 
-  text-decoration: none;
-}
-.project-boxes a:hover {
-  text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
 }
 
 .spotlight {
