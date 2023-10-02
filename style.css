@@ -42,8 +42,8 @@ nav{
 /* #F988BA #FF8FBB #4EFFBB #FFF08E*/
 .logo{
   color: #042BC6;
-  letter-spacing: 6px;
-  font-size: 26px;
+  letter-spacing: 0.4rem;
+  font-size: 1.75rem;
 }
 
 .nav-links{
@@ -58,7 +58,7 @@ nav{
   color: #042BC6;
   text-decoration: none;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 1.5rem;
   cursor: none; /*for fancy cursor*/
 }
 .project-links {
@@ -198,4 +198,11 @@ footer{
 }
 footer p{
     color: #FFF4B2;
+}
+footer a{
+  text-decoration: none;
+  color: #FFF4B2;
+}
+html{
+  scroll-behavior: smooth;
 }
