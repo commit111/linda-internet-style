@@ -47,7 +47,7 @@ window.addEventListener("load", () => {
 
 let mouseCursor = document.querySelector(".cursor");
 let navLinks = document.querySelectorAll(".nav-links li");
-let projectLinks = document.querySelectorAll(".project-boxes a");
+let projectLinks = document.querySelectorAll(".project-name");
 let logo = document.querySelector(".logo");
 let footLinks = document.querySelector(".foot a");
 let spotlightLinks = document.querySelector(".spotlight a");
