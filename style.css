@@ -15,7 +15,6 @@ body {
   overflow-x: hidden;
   cursor: none;
 }
-
 footer {
   text-align: center;
   padding: 100px 20px;
@@ -169,6 +168,7 @@ nav {
 }
 .project-box p{
   color: #042bc6;
+  
 }
 
 
