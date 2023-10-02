@@ -192,11 +192,10 @@ nav{
 .container{
   background: #FFF4B2;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  padding: 1rem 0rem 2rem 0rem;
-  height: 80vh;
+  padding: 0rem 0rem 0rem 0rem;
 }
 
 
@@ -247,12 +246,11 @@ nav{
 }
 .spotlight{
   background-color: pink;
-  min-height: 80vh;
+  min-height: 90vh;
   min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: flex-start;
   justify-content: center;
-  margin-top: 20vh;
 }
