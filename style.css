@@ -62,9 +62,10 @@ footer a {
   align-content: flex-start;
   justify-content: center;
 }
-.spotlight a{
+.spotlight a {
   text-decoration: none;
   color: #042bc6;
+  cursor: none;
 }
 
 nav {
@@ -126,7 +127,6 @@ nav {
   cursor: none; /*for fancy cursor*/
 }
 
-
 .project-boxes {
   display: flex;
   align-items: center;
@@ -138,35 +138,34 @@ nav {
   /*top/bottom left/right */
   padding: 2rem;
   margin: 2rem;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 0.2rem;
 }
-.project-boxes a{
-  color: #042bc6;
-  cursor: none; 
+.project-boxes a {
+  color: black; /*#042bc6*/
+  cursor: none;
   text-decoration: none;
 }
 .nav-links a:hover {
   text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
 }
 .project-boxes a:hover {
-  text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
+  /*text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);*/
 }
 
-.project-box{
+.project-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.project-box img{
+.project-box img {
   height: 11rem;
   margin-bottom: 2rem;
   width: 20rem;
   border-radius: 0.4rem;
   object-fit: cover;
 }
-
 
 /*
 .project-links {
@@ -294,4 +293,3 @@ nav {
     transform: rotate(1turn);
   }
 }
-
