@@ -44,7 +44,7 @@ footer a {
   transition: all 0.3s ease;
   transition-property: background, transform;
   transform-origin: 100% 100%;
-  backdrop-filter: grayscale(80%); /* invert(100%); blur(3px); */
+  backdrop-filter: invert(100%); /* invert(100%); blur(3px); */
   z-index: 10;
 }
 .link-grow {
@@ -137,7 +137,7 @@ nav {
   border-radius: 0.2rem;
 }
 .project-boxes a {
-  color: #042bc6; /*#042bc6*/
+  color: black; /*#042bc6*/
   cursor: none;
   text-decoration: none;
 }

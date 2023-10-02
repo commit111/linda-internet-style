@@ -51,7 +51,7 @@ let projectLinks = document.querySelectorAll(".project-boxes a");
 let logo = document.querySelector(".logo");
 let footLinks = document.querySelector(".foot a");
 let spotlightLinks = document.querySelector(".spotlight a");
-let spotlightWords = document.querySelector(".spotlight p");
+let spotlightHeads = document.querySelector(".spotlight h1");
 
 window.addEventListener("mousemove", cursor);
 
@@ -92,6 +92,13 @@ footLinks.addEventListener("mouseleave", () => {
   mouseCursor.classList.remove("link-grow");
 });
 
+spotlightHeads.addEventListener("mouseover", () => {
+  mouseCursor.classList.add("link-grow");
+});
+spotlightHeads.addEventListener("mouseleave", () => {
+  mouseCursor.classList.remove("link-grow");
+});
+
 spotlightLinks.addEventListener("mouseover", () => {
   mouseCursor.classList.add("link-grow");
 });
@@ -99,9 +106,3 @@ spotlightLinks.addEventListener("mouseleave", () => {
   mouseCursor.classList.remove("link-grow");
 });
 
-spotlightWords.addEventListener("mouseover", () => {
-  mouseCursor.classList.add("link-grow");
-});
-spotlightWords.addEventListener("mouseleave", () => {
-  mouseCursor.classList.remove("link-grow");
-});
