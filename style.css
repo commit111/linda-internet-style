@@ -230,3 +230,18 @@ nav{
   }
 }
 
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.flex-container div{
+  padding: 6rem;
+  background-color: rgba(0,0,0,0.5);
+  max-width: 100%;
+  max-height: 100%;
+}
+.spotlight{
+  min-height: 50vh;
+}
