@@ -11,7 +11,6 @@ body{
   color: #042BC6;
   overflow-x: hidden;
 }
-
 nav{
   display: flex;
   justify-content: space-around;
