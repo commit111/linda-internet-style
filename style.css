@@ -30,6 +30,15 @@ nav li a{
 nav li a:link{
   text-decoration:none;
 }
-li a:visited{
+nav li a:visited{
   color: #042BC6;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.nav-links li{
+  list-style: none;
 }
