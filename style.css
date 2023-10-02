@@ -41,6 +41,19 @@ nav{
   letter-spacing: 1px;
   font-size: 18px;
 }
+.project-list ul{
+  list-style-type: "✦ "
+}
+.project-list a{
+  color: black;
+}
+.nav-links a:hover{
+  text-shadow: 2px 2px 9px rgba(4, 43, 198,0.75);
+}
+.project-list a:hover{
+  color: #042BC6;
+}
+
 .burger{
   display: none;
   cursor: pointer;
@@ -164,16 +177,4 @@ footer{
 }
 footer p{
     color: #FFF4B2;
-}
-
-.project-list ul{
-  list-style-type: "✦ "
-}
-
-.project-list a{
-  color: black;
-}
-
-.project-list a:hover{
-  color: #042BC6;
 }
