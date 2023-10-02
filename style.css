@@ -52,6 +52,21 @@ footer a {
   transform: scale(2);
 }
 
+.spotlight {
+  background-color: #fff4b2;
+  min-height: 86vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center;
+}
+.spotlight a{
+  text-decoration: none;
+  color: #042bc6;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -117,6 +132,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 3rem;
 }
 .project-boxes div {
   /*top/bottom left/right */
@@ -279,16 +295,3 @@ nav {
   }
 }
 
-.spotlight {
-  background-color: #fff4b2;
-  min-height: 86vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: flex-start;
-  justify-content: center;
-}
-.projectanchor{
-  
-}

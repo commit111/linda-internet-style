@@ -50,6 +50,7 @@ let navLinks = document.querySelectorAll(".nav-links li");
 let projectLinks = document.querySelectorAll(".project-links li");
 let logo = document.querySelector(".logo");
 let arrowTop = document.querySelector(".foot a");
+let arrowDown = d
 
 window.addEventListener("mousemove", cursor);
 
