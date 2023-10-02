@@ -47,6 +47,7 @@ window.addEventListener("load", () => {
 
 let mouseCursor = document.querySelector(".cursor");
 let navLinks = document.querySelectorAll(".nav-links li");
+let projectLinks = document.querySelectorAll(".project-list li");
 let logo = document.querySelector(".logo");
 
 window.addEventListener("mousemove", cursor);
@@ -64,6 +65,16 @@ navLinks.forEach(link => {
     mouseCursor.classList.remove("link-grow");
   });
 });
+
+projectLinks.forEach(link => {
+  link.addEventListener("mouseover", () => {
+    mouseCursor.classList.add("link-grow");
+  });
+  link.addEventListener("mouseleave", () => {
+    mouseCursor.classList.remove("link-grow");
+  });
+});
+
 
 logo.addEventListener("mouseover", () => {
   mouseCursor.classList.add("link-grow");

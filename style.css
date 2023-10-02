@@ -59,12 +59,14 @@ nav{
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 18px;
+  cursor: none; /*for fancy cursor*/
 }
 .project-list ul{
-  list-style-type: "✦ "
+  list-style-type: "✦ ";
 }
 .project-list a{
   color: black;
+  cursor: none; /*for fancy cursor*/
 }
 .nav-links a:hover{
   text-shadow: 2px 2px 9px rgba(4, 43, 198,0.75);
@@ -94,7 +96,6 @@ nav{
 @media screen and (max-width:768px){
   body{
     overflow-x: hidden;
-    cursor: auto;
   }
   .nav-links{
     position: absolute;
