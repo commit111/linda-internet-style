@@ -64,6 +64,14 @@ nav{
   color: #042BC6;
   letter-spacing: 0.4rem;
   font-size: 1.75rem;
+  display:flex;
+  justify-items: left;
+  align-items: center;
+}
+
+#logopic {
+  width: 2rem;
+  
 }
 
 .nav-links{
