@@ -72,7 +72,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: rgba(255,255,255,0.9); /*rgba(255, 255, 255, 0.8) #FFFCEA*/
+  background-color: rgba(254, 250, 224,1); /*rgba(255, 255, 255, 0.9) #FFFCEA*/
   z-index: 1;
 
   position: -webkit-sticky;
@@ -219,7 +219,7 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(254, 250, 224, 1); /*rgba(255, 255, 255, 0.9);*/
     display: flex;
     flex-direction: column;
     align-items: center;
