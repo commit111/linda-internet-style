@@ -37,9 +37,11 @@ window.addEventListener("load", () => {
   //loader.classList.add("loader-hidden");
   setTimeout(() => loader.classList.add("loader-hidden"), 1000);
   
+  /*
   loader.addEventListener("transitionend", () => {
     document.body.removeChild("loader");
   });
+  */
 });
 
 
@@ -50,8 +52,8 @@ let navLinks = document.querySelectorAll(".nav-links li");
 let projectLinks = document.querySelectorAll(".project-boxes a");
 let logo = document.querySelector(".logo");
 let footLinks = document.querySelector(".foot a");
-let spotlightLinks = document.querySelector(".spotlight a");
 let spotlightHeads = document.querySelector(".spotlight h1");
+let spotlightLinks = document.querySelector(".spotlight a");
 let aboutContents = document.querySelector(".about-contents");
 
 window.addEventListener("mousemove", cursor);
