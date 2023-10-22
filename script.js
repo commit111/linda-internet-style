@@ -54,7 +54,7 @@ let logo = document.querySelector(".logo");
 let footLinks = document.querySelector(".foot a");
 let spotlightHeads = document.querySelector(".spotlight h1");
 let spotlightLinks = document.querySelector(".spotlight a");
-let aboutContents = document.querySelector(".about-contents");
+let aboutContentsH2 = document.querySelector(".about-contents h2");
 
 window.addEventListener("mousemove", cursor);
 
@@ -109,9 +109,9 @@ spotlightLinks.addEventListener("mouseleave", () => {
   mouseCursor.classList.remove("link-grow");
 });
 
-aboutContents.addEventListener("mouseover", () => {
+aboutContentsH2.addEventListener("mouseover", () => {
   mouseCursor.classList.add("link-grow");
 });
-aboutContents.addEventListener("mouseleave", () => {
+aboutContentsH2.addEventListener("mouseleave", () => {
   mouseCursor.classList.remove("link-grow");
 });
