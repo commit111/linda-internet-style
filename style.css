@@ -131,7 +131,7 @@ nav {
 
 .about-contents {
   background-color: #fff4b2;
-  min-height: 86vh;
+  min-height: 100vh;
   min-width: 100vw;
   display: flex;
   flex-direction: row;
@@ -143,7 +143,12 @@ nav {
 .about-contents img {
   border-radius: 50%;
   width: 20rem;
-  margin: 
+  height: 30rem;
+  margin: 5rem;
+  object-fit: cover;
+}
+.about-contents p {
+  width: 30%;
 }
 
 
