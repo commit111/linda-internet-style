@@ -150,7 +150,7 @@ nav {
 }
 .desc {
   color: black;
-  width: 30%;
+  width: 32%;
   line-height: 1.5;
 }
 
@@ -179,6 +179,7 @@ nav {
   color: black; /*#042bc6*/
   cursor: none;
   text-decoration: none;
+  font-size: 1.7rem;
   
   transition: transform 0.3s;
 }
@@ -208,7 +209,7 @@ nav {
 }
 .project-box img {
   height: 11rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   width: 20rem;
   border-radius: 50%; /*0.4rem*/
   object-fit: cover;
