@@ -38,7 +38,7 @@ window.addEventListener("load", () => {
   setTimeout(() => loader.classList.add("loader-hidden"), 1000);
   
   loader.addEventListener("transitionend", () => {
-    document.body.removeChild("loader")
+    document.body.removeChild("loader");
   });
 });
 
@@ -52,7 +52,7 @@ let logo = document.querySelector(".logo");
 let footLinks = document.querySelector(".foot a");
 let spotlightLinks = document.querySelector(".spotlight a");
 let spotlightHeads = document.querySelector(".spotlight h1");
-let 
+let aboutContents = document.querySelector(".about-contents");
 
 window.addEventListener("mousemove", cursor);
 
@@ -107,3 +107,9 @@ spotlightLinks.addEventListener("mouseleave", () => {
   mouseCursor.classList.remove("link-grow");
 });
 
+aboutContents.addEventListener("mouseover", () => {
+  mouseCursor.classList.add("link-grow");
+});
+aboutContents.addEventListener("mouseleave", () => {
+  mouseCursor.classList.remove("link-grow");
+});
