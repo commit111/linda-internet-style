@@ -123,6 +123,35 @@ nav {
   cursor: none; /*for fancy cursor*/
 }
 
+
+
+
+
+
+
+.about-contents {
+  background-color: #fff4b2;
+  min-height: 86vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.about-contents img {
+  border-radius: 50%;
+  width: 20rem;
+  margin: 
+}
+
+
+
+
+
+
+
 .project-boxes {
   display: flex;
   align-items: center;
