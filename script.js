@@ -52,6 +52,7 @@ let logo = document.querySelector(".logo");
 let footLinks = document.querySelector(".foot a");
 let spotlightLinks = document.querySelector(".spotlight a");
 let spotlightHeads = document.querySelector(".spotlight h1");
+let 
 
 window.addEventListener("mousemove", cursor);
 
