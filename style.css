@@ -1,3 +1,9 @@
+:root {
+  --blue: #042bc6;
+  --yellow: #fff4b2;
+  --cream: #fefae0; /*or 0.6 white on top of yellow*/
+}
+
 html {
   scroll-behavior: smooth;
 }
