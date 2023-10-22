@@ -60,6 +60,9 @@ footer a {
   align-items: center;
   align-content: flex-start;
   justify-content: center;
+  
+  border: 5px solid #042bc6;
+  border-radius: 50%;
 }
 .spotlight a {
   text-decoration: none;
