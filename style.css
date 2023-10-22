@@ -172,7 +172,7 @@ nav {
 }
 .project-box:hover{
   transform: scale(1.03);
-  box-shadow: 5px 5px 20px rgba(4, 43, 198, 0.4);
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.25);
 }
 .project-box p{
   color: #042bc6;
