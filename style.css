@@ -209,7 +209,7 @@ nav {
 }
 .project-box img {
   height: 11rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.75rem;
   width: 20rem;
   border-radius: 50%; /*0.4rem*/
   object-fit: cover;
