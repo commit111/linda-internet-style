@@ -140,6 +140,8 @@ nav {
   color: black; /*#042bc6*/
   cursor: none;
   text-decoration: none;
+  
+  transition: transform 0.3s;
 }
 .project-box a{
   display:flex;
@@ -151,9 +153,11 @@ nav {
   text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);
 }
 .project-boxes a:hover {
-   color: black; /*#042bc6*/
+  color: black; /*#042bc6*/
   text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.5);
   /*text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);  */
+  
+  transform: scale(1.04);
 }
 
 .project-box {
@@ -167,15 +171,21 @@ nav {
   height: 11rem;
   margin-bottom: 2rem;
   width: 20rem;
-  border-radius: 0.4rem;
+  border-radius: 50%; /*0.4rem*/
   object-fit: cover;
+  
+  transition: transform 0.3s;
 }
 .project-box:hover{
-  transform: scale(1.03);
+  
   box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.25);
 }
 .project-box p{
   color: #042bc6;
+}
+
+.project-box img:hover {
+  transform: scale(1.02);
 }
 
 /*
