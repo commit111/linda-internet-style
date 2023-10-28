@@ -222,10 +222,12 @@ nav {
   
   transition: transform 0.3s;
 }
+
+/*
 .project-box:hover{
-  
   box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.25);
-}
+}*/
+
 .project-box p{
   color: #042bc6;
 }
