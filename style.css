@@ -67,7 +67,7 @@ footer a {
   align-content: flex-start;
   justify-content: center;
   
-  border-top: 5px solid #042bc6;
+  /*border-top: 5px solid #042bc6;*/
 }
 .spotlight a {
   text-decoration: none;
