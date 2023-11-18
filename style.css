@@ -181,7 +181,7 @@ nav {
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 0.2rem;
   
-  transform: skew(20deg) translate(0px, 0px);
+  transform: skew(10deg) translate(0px, 0px) rotateZ(-5deg);
   transition: transform 0.3s;
 }
 .project-boxes a {
@@ -209,7 +209,7 @@ nav {
 }
 
 .project-boxes div:hover {
-  transform: skew(0deg) translate(0px, -30px) scale(1.05);
+  transform: skew(0deg) translate(0px, -30px) rotateZ(0deg);
 }
 
 .project-box {
