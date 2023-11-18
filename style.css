@@ -184,7 +184,8 @@ nav {
   
   transform: skew(5deg) translate(0px, 0px) rotateZ(-5deg);
   transition: transform 1s;
-  zoom: 0.5;
+  zoom: 0.95;
+  /*zoom: 0.8; /*to make smaller view */
 }
 .project-boxes a {
   color: black; /*#042bc6*/
@@ -226,7 +227,7 @@ nav {
   height: 11rem;
   margin-bottom: 1.75rem;
   width: 20rem;
-  border-radius: 50%; /*0.4rem*/
+  border-radius: 0.5rem; /*0.4rem*/
   object-fit: cover;
   
   transition: transform 0.3s;
