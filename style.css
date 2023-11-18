@@ -182,8 +182,9 @@ nav {
   border-radius: 0.2rem;
   box-shadow: 3px 8px 12px rgba(251,236,93, 0.5);
   
-  transform: skew(20deg) translate(0px, 0px) rotateZ(-5deg);
+  transform: skew(5deg) translate(0px, 0px) rotateZ(-5deg);
   transition: transform 1s;
+  zoom: 0.5;
 }
 .project-boxes a {
   color: black; /*#042bc6*/
