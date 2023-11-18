@@ -178,11 +178,11 @@ nav {
   /*top/bottom left/right */
   padding: 2rem;
   margin: 1rem;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: var(--cream); /*rgba(255, 255, 255, 0.6);*/
   border-radius: 0.2rem;
   
   transform: skew(20deg) translate(0px, 0px) rotateZ(-5deg);
-  transition: transform 1s;
+  transition: transform 0.8s;
 }
 .project-boxes a {
   color: black; /*#042bc6*/
@@ -209,7 +209,7 @@ nav {
 }
 
 .project-boxes div:hover {
-  transform: skew(0deg) translate(0px, -30px) rotateZ(0deg) scale(1.07);
+  transform: skew(0deg) translate(0px, -30px) rotateZ(0deg) scale(1.03);
 }
 
 .project-box {
