@@ -180,7 +180,9 @@ nav {
   margin: 1rem;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 0.2rem;
-  transform: skew(20deg);
+  
+  transform: skew(20deg) translate(0px, 0px);
+  transition: transform 0.3s;
 }
 .project-boxes a {
   color: black; /*#042bc6*/
@@ -203,10 +205,17 @@ nav {
   color: black; /*#042bc6*/
   text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.5);
   /*text-shadow: 2px 2px 9px rgba(4, 43, 198, 0.75);  */
-  
   transform: scale(1.04);
-  transform: skew(-20deg);
 }
+
+.project-boxes div:hover {
+  transform: skew(0deg) translate(0px, -30px);
+}
+
+.project-boxes div:hover ~  {
+  transform: skew(0deg) translate(0px, -30px);
+}
+
 
 .project-box {
   display: flex;
