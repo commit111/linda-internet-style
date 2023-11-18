@@ -81,7 +81,7 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: rgba(254, 250, 224, 1); /*rgba(255, 255, 255, 0.9) #FFFCEA*/
-  z-index: 1;
+  z-index: 3;
 
   position: -webkit-sticky;
   position: sticky;
@@ -180,9 +180,10 @@ nav {
   margin: 1rem;
   background-color: var(--cream); /*rgba(255, 255, 255, 0.6);*/
   border-radius: 0.2rem;
+  box-shadow: 3px 8px 12px rgba(251,236,93, 0.5);
   
   transform: skew(20deg) translate(0px, 0px) rotateZ(-5deg);
-  transition: transform 0.8s;
+  transition: transform 1s;
 }
 .project-boxes a {
   color: black; /*#042bc6*/
@@ -209,7 +210,8 @@ nav {
 }
 
 .project-boxes div:hover {
-  transform: skew(0deg) translate(0px, -30px) rotateZ(0deg) scale(1.03);
+  transform: skew(0deg) translate(0px, -30px) rotateZ(0deg) scale(1.05);
+  z-index: 1;
 }
 
 .project-box {
