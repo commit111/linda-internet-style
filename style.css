@@ -209,13 +209,8 @@ nav {
 }
 
 .project-boxes div:hover {
-  transform: skew(0deg) translate(0px, -30px);
+  transform: skew(0deg) translate(0px, -30px) scale(1.05);
 }
-
-.project-boxes div:hover ~  {
-  transform: skew(0deg) translate(0px, -30px);
-}
-
 
 .project-box {
   display: flex;
