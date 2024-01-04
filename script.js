@@ -55,6 +55,7 @@ let footLinks = document.querySelector(".foot a");
 let spotlightHeads = document.querySelector(".spotlight h1");
 let spotlightLinks = document.querySelector(".spotlight a");
 let aboutContentsH2 = document.querySelector(".about-contents h2");
+let socials = document.querySelectorAll(".social-icon");
 
 window.addEventListener("mousemove", cursor);
 
@@ -77,6 +78,15 @@ projectLinks.forEach(link => {
     mouseCursor.classList.add("link-grow");
   });
   link.addEventListener("mouseleave", () => {
+    mouseCursor.classList.remove("link-grow");
+  });
+});
+
+socials.forEach(socialIcon => {
+  socialIcon.addEventListener("mouseover", () => {
+    mouseCursor.classList.add("link-grow");
+  });
+  socialIcon.addEventListener("mouseleave", () => {
     mouseCursor.classList.remove("link-grow");
   });
 });
@@ -115,3 +125,4 @@ aboutContentsH2.addEventListener("mouseover", () => {
 aboutContentsH2.addEventListener("mouseleave", () => {
   mouseCursor.classList.remove("link-grow");
 });
+
