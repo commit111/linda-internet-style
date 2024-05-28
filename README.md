@@ -1,6 +1,7 @@
 # Portfolio Website
 
-Started on Oct 1, 2023
+Started on Oct 1, 2023. 
+Note: projects showcased in this portfolio may extend all the way back from May 2023. 
 
 A website combining my previous work into one.
 
